@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>COTTON PLANT DISEASE PREDICTION</title>
+
+    <style>
+        * {
+         background-color:GREEN;
+            margin: 15px;
+            padding: 5px;
+            
+        }
+
+        .card-style {
+            background-color: #dcdcdc;
+
+        }
+
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+
+        @media (max-width:500px) and (min-width: 300px) {
+
+
+            .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+
+            .content-h1 {
+
+                font-size: 1rem;
+            }
+        }
+
+        .border img {
+            border-radius: 30px;
+            border: 4px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img src="/static/images/cotton palnt banner2.png" class="w3-border w3-padding" alt="Indian AI Production"
+            style="width:100%">
+    </div>
+
+
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    <!-- <img src="{{pred_output}}" alt="User Image" class="img-thumbnail"> -->
+
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+
+                <h2>Disease Name / रोग का नाम / रोगाचे नाव /</span></h2>
+                <h3 style="line-height: 100%;"><br> आलू का पछेती झूलसा रोग <br> </h3>
+                <hr class="w-100 mx-auto ">
+            </div>
+        </div>
+
+
+        <h1> Solution for Disease / रोग का उपचार / रोगाचा उपाय </h1>
+        <p><strong>
+        <ol>
+                <li>Plant resistant cultivars when available.</li>
+                 <li>Remove volunteers from the garden prior to planting and space plants far enough apart to allow for plenty of air circulation..</li>
+                 <li>Water in the early morning hours, or use soaker hoses, to give plants time to dry out during the day — avoid overhead irrigation..</li>
+                  <li>Destroy all tomato and potato debris after harvest (see Fall Garden Cleanup)..</li>
+</ol></strong></p>
+        <p><strong><ol>
+                 <li> उपलब्ध होने पर प्रतिरोधी किस्में लगाएं।</li>
+                   <li> रोपण से पहले स्वयंसेवकों को बगीचे से हटा दें और पर्याप्त हवा के संचलन की अनुमति देने के लिए पौधों को काफी दूर रखें।</li>
+                   <li> पौधों को दिन में सूखने के लिए समय देने के लिए सुबह के समय पानी दें, या सोकर होज़ का उपयोग करें - ऊपरी सिंचाई से बचें।</li>
+                  <li> कटाई के बाद टमाटर और आलू के सभी मलबे को नष्ट कर दें (फॉल गार्डन क्लीनअप देखें)।</li></ol></strong></p>
+    </div>
+    <section>
+
+        <div class="container">
+            <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 content-h1">
+                Recommended Products</h1>
+        </div>
+
+        <div class="container">
+
+
+            <div class="card-columns">
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="/static/images/ser.jpg" alt="">
+                        <h3 class="card-text">Dose: 60-80 gm/Acre</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="/static/images/plantdoctor.jpg" alt="">
+                        <h3 class="card-text">Dose: 25-40 gm/Acre</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px" class="img-fluid" src="/static/images/liquid.jpg" alt="">
+                        <h3 class="card-text">Dose: 60-80 gm/Acre</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="/static/images/natural.jpg" alt="">
+                        <h3 class="card-text">Dose: 25-35 ml/Acre</h3>
+                    </div>
+                </div>
+               
+                </div>
+
+
+            </div>
+
+            <!-- <div class="container-fluid contents"> -->
+            <h5 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 contents">
+                Delivery Contact:
+       XYZ@GMAIL.COM</h5>
+            <!-- </div> -->
+        </div>
+
+    </section>
+
+</body>
+
+</html>
